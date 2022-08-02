@@ -29,6 +29,9 @@ const App = () => {
             };
             setRectangles([...rectangles, newRectangle]);
     }
+    const clearedStorage = () => {
+        localStorage.clear()
+    }
 
     useEffect(() => {
         localStorage.setItem('rect', JSON.stringify(rectangles))
@@ -45,9 +48,10 @@ const App = () => {
             height={window.innerHeight}
             onMouseDown={checkDeselect}
             onTouchStart={checkDeselect}
+            onDblClick={clearedStorage}
         >
             <Layer>
-                <Text text='Add new rectangle(click on text) and right click on the element to delete' fontSize={25} onClick={handleAddRectangle}></Text>
+                <Text text='Add new rectangle(click on text)' fontSize={25} onClick={handleAddRectangle}></Text>
                 {connectors.map(con => {
                     const from = rectangles.find(s => s.id === con.from);
                     const to = rectangles.find(s => s.id === con.to);
