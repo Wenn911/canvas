@@ -14,3 +14,5 @@ Unfortunately, I was not able to add a change in the number of sockets and save 
 Using React and React Konva
 
 Anyway, I am grateful for the experience gained on this task.
+
+[Deploy on vercel](canvas-lilac.vercel.app)
