@@ -4,7 +4,7 @@ This a solution for НПО "Фарватер" Frontend developer vacancy from ca
 
 ### I managed to implement:
 
-1. Adding/removing an element
+1. Adding an element
 2. Connection between elements
 3. Storing state in localstorage
 4. Moving elements on the canvas
@@ -14,5 +14,13 @@ Unfortunately, I was not able to add a change in the number of sockets and save 
 Using React and React Konva
 
 Anyway, I am grateful for the experience gained on this task.
+
+## Usage
+
+To add an element, click on the text.
+
+To delete an element, right-click on the element.
+
+To clear the canvas, double-click on an empty space and press F5
 
 [Deploy on vercel](canvas-lilac.vercel.app)
