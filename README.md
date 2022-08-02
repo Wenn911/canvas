@@ -23,4 +23,4 @@ To delete an element, right-click on the element.
 
 To clear the canvas, double-click on an empty space and press F5
 
-[Deploy on vercel](https://canvas-5rbk3m94f-wenn911.vercel.app/)
+https://canvas-5rbk3m94f-wenn911.vercel.app/
