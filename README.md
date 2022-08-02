@@ -12,3 +12,5 @@ This a solution for НПО "Фарватер" Frontend developer vacancy from ca
 Unfortunately, I was not able to add a change in the number of sockets and save the state correctly. I will be glad to receive feedback with an explanation of errors.
 
 Using React and React Konva
+
+Anyway, I am grateful for the experience gained on this task.
