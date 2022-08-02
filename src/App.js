@@ -47,7 +47,7 @@ const App = () => {
             onTouchStart={checkDeselect}
         >
             <Layer>
-                <Text text='Add new rectangle(click)' fontSize={25} onClick={handleAddRectangle}></Text>
+                <Text text='Add new rectangle(click on text) and right click on the element to delete' fontSize={25} onClick={handleAddRectangle}></Text>
                 {connectors.map(con => {
                     const from = rectangles.find(s => s.id === con.from);
                     const to = rectangles.find(s => s.id === con.to);
@@ -92,6 +92,7 @@ const App = () => {
                         />
                     );
                 })}
+
             </Layer>
         </Stage>
     );
